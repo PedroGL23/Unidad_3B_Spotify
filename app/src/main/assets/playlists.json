@@ -1,0 +1,69 @@
+{
+  "data": [
+
+    {
+      "nameOfPlaylist": "Pop con Ñ",
+      "cover": "https://images.unsplash.com/photo-1471478331149-c72f17e33c73?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+    },
+    {
+      "nameOfPlaylist": "Pop clásico",
+      "cover": "https://images.unsplash.com/photo-1598387180687-9be7e316796d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2076&q=80"
+    },
+    {
+      "nameOfPlaylist": "Rock party",
+      "cover": "https://images.unsplash.com/photo-1510759302203-56a281488e88?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+    },
+    {
+      "nameOfPlaylist": "Flamenco",
+      "cover": "https://images.unsplash.com/photo-1560703449-3efbe9e1412a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1275&q=80"
+    },
+    {
+      "nameOfPlaylist": "Dance party",
+      "cover": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+    },
+    {
+      "nameOfPlaylist": "80s party",
+      "cover": "https://images.unsplash.com/photo-1516916759473-600c07bc12d4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+    },
+    {
+      "nameOfPlaylist": "Canta en el coche",
+      "cover": "https://images.unsplash.com/photo-1522673999312-93aa76caeda6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80"
+    },
+    {
+      "nameOfPlaylist": "Solo Jazz",
+      "cover": "https://images.unsplash.com/photo-1584679109597-c656b19974c9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+    },
+    {
+      "nameOfPlaylist": "Disney Hits",
+      "cover": "https://images.unsplash.com/photo-1530908158103-e2d2bf40c235?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+    },
+    {
+      "nameOfPlaylist": "Just Hits",
+      "cover": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+    },
+    {
+      "nameOfPlaylist": "Peaceful Piano",
+      "cover": "https://images.unsplash.com/photo-1513883049090-d0b7439799bf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+    },
+    {
+      "nameOfPlaylist": "Pop Internacional",
+      "cover": "https://images.unsplash.com/photo-1600205049507-5d1ee99d210b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=741&q=80"
+    },
+    {
+      "nameOfPlaylist": "Bandas Sonoras",
+      "cover": "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+    },
+    {
+      "nameOfPlaylist": "Música Clásica",
+      "cover": "https://images.unsplash.com/photo-1465847899084-d164df4dedc6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+    },
+    {
+      "nameOfPlaylist": "Baila Reggaeton",
+      "cover": "https://images.unsplash.com/photo-1627845381715-bd0c938050bf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+    },
+    {
+      "nameOfPlaylist": "Todo indie",
+      "cover": "https://images.unsplash.com/photo-1481886756534-97af88ccb438?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80"
+    }
+  ]
+}

@@ -9,7 +9,7 @@
         android:id="@+id/playlistFragment"
         android:name="com.example.unidad_3b_spotify.PlaylistFragment"
         android:label="fragment_playlist"
-        tools:layout="@layout/fragment_playlist" >
+        tools:layout="@layout/fragment_playlist">
         <action
             android:id="@+id/action_playlistFragment_to_selectedPlaylilstFragment"
             app:destination="@id/selectedPlaylilstFragment" />
