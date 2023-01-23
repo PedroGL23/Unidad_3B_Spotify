@@ -6,12 +6,16 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.navigation.Navigation
 import androidx.recyclerview.widget.RecyclerView
 import com.example.unidad_3b_spotify.PlaylistName
 import com.example.unidad_3b_spotify.R
 import com.squareup.picasso.Picasso
 
 class RecyclerAdapter(private val cardTitles: List<PlaylistName>) : RecyclerView.Adapter<RecyclerAdapter.MainViewHolder>() {
+
+    var onItemClick: ((PlaylistName) -> Unit)? = null
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MainViewHolder {
         val v = LayoutInflater.from(parent.context).inflate(R.layout.playlist_item_block, parent, false)
         return MainViewHolder(v)
@@ -21,7 +25,7 @@ class RecyclerAdapter(private val cardTitles: List<PlaylistName>) : RecyclerView
         holder.bindItems(data)
 
         holder.itemView.setOnClickListener {
-
+            onItemClick?.invoke(data)
             Log.i("ha FUNCIONADO", data.nameOfPlaylist.toString())
         }
     }
@@ -46,6 +50,7 @@ class RecyclerAdapter(private val cardTitles: List<PlaylistName>) : RecyclerView
             playlistCover = data.cover
             Picasso.get().load(playlistCover).into(cardImage)
 
+
             //  Número de seguidores asignados al azar entre 100.000 y 100.000.000
             var randomNumber = v.findViewById<TextView>(R.id.numberOfFollowers)
             randomNumber.text = (100000..100000000).random().toString()
@@ -53,5 +58,6 @@ class RecyclerAdapter(private val cardTitles: List<PlaylistName>) : RecyclerView
             Log.i("cover", playlistCover.toString())
 
         }
+
     }
 }

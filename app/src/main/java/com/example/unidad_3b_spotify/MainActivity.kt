@@ -1,9 +1,13 @@
 package com.example.unidad_3b_spotify
 
+import android.content.Intent
+import android.graphics.Color
+import android.graphics.drawable.ColorDrawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import androidx.annotation.IdRes
+import androidx.appcompat.app.ActionBar
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.navigation.NavController
@@ -26,7 +30,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        setupActionBarWithNavController(findNavigationController(R.id.nav_host_fragment))
+
+        supportActionBar?.setBackgroundDrawable(ColorDrawable(Color.parseColor("#090909")))
+        supportActionBar?.title = "Playlists Populares"
 
         val json = readJsonFromFile("playlists.json")
         val playlist = Gson().fromJson(json, PlaylistResponse::class.java)
@@ -37,6 +43,10 @@ class MainActivity : AppCompatActivity() {
         val mAdapter = RecyclerAdapter(playlist.data)
         mainRecyclerView.layoutManager = GridLayoutManager(this, 2)
         mainRecyclerView.adapter = mAdapter
+
+        mAdapter.onItemClick = {
+            findNavigationController(R.id.action_playlistFragment_to_selectedPlaylilstFragment)
+        }
 
 
 
