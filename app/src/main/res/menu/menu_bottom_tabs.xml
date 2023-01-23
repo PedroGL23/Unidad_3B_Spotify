@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_home"
+        android:icon="@drawable/spotify_home"
+        android:title="Inicio" />
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/spotify_magnifier_icon"
+        android:title="Buscar" />
+    <item
+        android:id="@+id/action_library"
+        android:icon="@drawable/spotify_library"
+        android:title="Tu biblioteca" />
+
+    <item
+        android:id="@+id/action_premium"
+        android:icon="@drawable/spotify_premium"
+        android:title="Books" />
+
+</menu>
